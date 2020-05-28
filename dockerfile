@@ -4,6 +4,6 @@ ADD . /app
 
 WORKDIR /app
 
-RUN pip install -U Flask
+RUN pip install -U -r requirements.txt
 
 CMD ["python", "app.py"]
